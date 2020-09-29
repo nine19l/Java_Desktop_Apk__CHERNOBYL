@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox fx:id="qw" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="599.0" prefWidth="797.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller1">
+   <children>
+      <VBox alignment="CENTER" prefHeight="599.0" prefWidth="426.0" style="-fx-background-color: #0fc0fc;">
+         <children>
+            <ImageView fitHeight="191.0" fitWidth="197.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@image/loginlogo.png" />
+               </image>
+            </ImageView>
+            <Label text="Test APK">
+               <font>
+                  <Font name="Tahoma" size="47.0" />
+               </font></Label>
+         </children>
+         <opaqueInsets>
+            <Insets top="-30.0" />
+         </opaqueInsets>
+         <padding>
+            <Insets top="-30.0" />
+         </padding></VBox>
+      <VBox prefHeight="599.0" prefWidth="375.0" style="-fx-background-color: #ffffff;">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <HBox.margin>
+            <Insets />
+         </HBox.margin>
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="148.0" fitWidth="171.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@image/Preloader.gif" />
+                     </image></ImageView>
+                  <Label prefHeight="78.0" prefWidth="145.0" text="Sign in" textFill="#3dc5ff">
+                     <font>
+                        <Font name="Comic Sans MS" size="40.0" />
+                     </font></Label>
+               </children>
+            </HBox>
+            <HBox prefHeight="116.0" prefWidth="373.0">
+               <children>
+                  <VBox fx:id="tttt" alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="187.0">
+                     <children>
+                        <Label text="Username :">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="5.0" />
+                           </VBox.margin></Label>
+                        <TextField fx:id="ttt" prefHeight="31.0" prefWidth="241.0" promptText="Username" />
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox prefHeight="131.0" prefWidth="373.0">
+               <children>
+                  <VBox alignment="CENTER_LEFT" prefHeight="123.0" prefWidth="188.0">
+                     <children>
+                        <Label text="Password :">
+                           <font>
+                              <Font size="19.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="5.0" />
+                           </VBox.margin>
+                        </Label>
+                        <PasswordField fx:id="ttt1" prefHeight="31.0" prefWidth="241.0" promptText="Password" />
+                     </children>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </VBox>
+               </children></HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="bttn1" mnemonicParsing="false" onAction="#sin" onMouseEntered="#gg" onMouseExited="#gg1" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: #0fc0fc;" text="Sign in" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets left="2.0" right="9.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font></Button>
+                  <Button fx:id="bttn2" mnemonicParsing="false" onAction="#qqq" onMouseEntered="#gg2" onMouseExited="#gg3" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: #0fc0fc;" text="Exit" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font></Button>
+               </children></HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="54.0" prefWidth="373.0">
+               <children>
+                  <Label fx:id="idi" onMouseClicked="#ssd" onMouseEntered="#me" onMouseExited="#ml" text="&lt;&lt; Go back">
+                     <font>
+                        <Font name="Tahoma" size="16.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin></Label>
+               </children>
+            </HBox>
+         </children></VBox>
+   </children>
+</HBox>
